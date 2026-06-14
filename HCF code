@@ -1,0 +1,7 @@
+a=int(input("Write first number= "))
+b=int(input("Write second number= "))
+
+while b != 0:
+    a,b= b, a%b
+
+print("HCF=" ,a)
